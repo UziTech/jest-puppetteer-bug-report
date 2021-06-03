@@ -1,3 +1,4 @@
 module.exports = {
-  preset: "jest-puppeteer",
+  ...require("ts-jest/jest-preset"),
+  ...require("jest-puppeteer/jest-preset"),
 };
