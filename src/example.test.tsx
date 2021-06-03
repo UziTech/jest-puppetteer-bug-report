@@ -1,3 +1,6 @@
+/**
+ * @jest-environment puppeteer
+ */
 import "expect-puppeteer";
 
 describe("Google", () => {
